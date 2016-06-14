@@ -17,7 +17,7 @@ module.exports = {
       loader: 'babel-loader',
       //3/ Babel wspiera ładowanie plików JSX Reacta
       query: {
-        presets: ['react', 'es2015']
+        presets: ['react', 'es2015', 'stage-0']
       }
     }, {
       test: /\.css$/,
