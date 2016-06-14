@@ -4,7 +4,7 @@
   "description": "React training",
   "main": "./src/main.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --debug --devtool --colors --display-error-details",
+    "start": "webpack-dev-server --watch-poll --debug --devtool --colors --display-error-details",
     "test": "xdg-open index.test.html"
   },
   "author": "Devmeetings",

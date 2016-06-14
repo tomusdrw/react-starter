@@ -18,6 +18,7 @@ module.exports = {
       //3/ Babel wspiera ładowanie plików JSX Reacta
       query: {
         presets: ['react', 'es2015', 'stage-0']
+        // $ npm install babel-preset-stage-0 --save-dev
       }
     }, {
       test: /\.css$/,
